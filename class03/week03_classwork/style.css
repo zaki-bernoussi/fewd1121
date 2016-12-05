@@ -1,0 +1,40 @@
+div {
+    width: 1200px;
+    border: 25px grey;
+    padding: 15px;
+    margin: 25px;
+    background: lightgrey;
+}
+
+h1 {
+	color: white;
+	font-weight: lighter;
+	text-align: center;
+	background: black;
+	font-size: 17px;
+	padding: 10px 10px;
+	margin: 20px 5px;
+}
+
+p {
+	padding: 15px 15px;
+	margin: 5px 5px;
+	background: #ff6347;
+	font-size: 17px;
+}
+
+#p-one {
+	color: #0000ff;
+}
+
+#p-two {
+	color: green;
+}
+
+#p-three {
+	color: yellow;
+}
+
+.center-text {
+	text-align: center;
+}
