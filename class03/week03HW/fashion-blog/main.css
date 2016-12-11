@@ -1,0 +1,38 @@
+div{
+	color: lightgrey;
+}
+
+a {
+	color: lightgrey;
+}
+
+h1 {
+	color: red;
+	font-family: Arial, sans-serif;
+	font-size: 25;
+}
+
+h2 {
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 25;
+}
+
+h3 {
+	color: lightgrey;
+	font-family: Arial, sans-serif;
+	font-size: 25;
+}
+
+p {
+	padding: 5px 5px;
+	margin: 5px 5px;
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+li { 
+	display: inline-block;
+}
