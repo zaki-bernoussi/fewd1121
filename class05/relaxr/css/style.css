@@ -14,6 +14,17 @@
 
 .title {
   float: left;
+  font-size: 55px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  display: block;
 }
 
 .clear {
@@ -30,6 +41,14 @@
   padding: 0 0 0px 0px;/* note the padding around a left floated image */
 }
 
+.top-down {
+  float: left;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #606161;
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -39,6 +58,30 @@ body {
   font-size: 55px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+  background: #f0efef;
+}
+
+header {
+  background-color: #033048;
+  display: block;
+  line-height: 1.4;
+  height: 5;
+  overflow: hidden;
+}
+
+h1 {
+  color: #033048;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin: auto;
+}
+
+h2 {
+  color: #033048;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
 }
 
 a {
@@ -47,11 +90,7 @@ a {
   font-size: 18px; 
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-  color: #033048;
-  font-size: 18px;
+  text-decoration: none;
 }
 
 ul {
@@ -65,27 +104,29 @@ li {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
 /* Center the container */
-.container {
-  width: 960px;
-  margin: auto;
-}
-
-header {
-  background-color: #033048;
-  display: block;
-  line-height: 1.4;
-  height: 5;
-  overflow: hidden;
+p {
+  float: left;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #606161;
 }
 
 main {
 
 }
 
-footer {
+aside{
 
+}
+
+footer {
+  background-color: #f9e42e;
+  display: block;
+  line-height: 1.4;
+  height: 5;
+  overflow: hidden;
 }
 
 /******************************************
