@@ -3,22 +3,29 @@
 /*******************************************/
 
 /* Clear fix hack */
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header {
+  background-color: blue;
+  height: 100px;
 }
 
-.title {
-  float: left;
-  font-size: 55px;
-  line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-  color: white;
+main {
+  background-color: white;
+  height: 100px;
+}
+
+aside {
+  background-color: yellow;
+  height: 100px;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
 }
 
 .container {
@@ -27,111 +34,54 @@
   display: block;
 }
 
-.clear {
+.clearfix:after {
+  display: table;
   clear: both;
 }
 
-.alignright {
-  float: right;
-  padding: 0 0 0px 0px; /* note the padding around a right floated image */
-}
-
-.alignleft {
+header h1{
   float: left;
-  padding: 0 0 0px 0px;/* note the padding around a left floated image */
+  color: white;
 }
 
-.top-down {
-  float: left;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  color: #606161;
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-  color: #f0efef;
-  font-size: 55px;
-  line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
-  background: #f0efef;
-}
-
-header {
-  background-color: #033048;
-  display: block;
-  line-height: 1.4;
-  height: 5;
-  overflow: hidden;
-}
-
-h1 {
-  color: #033048;
-  font-size: 40px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  margin: auto;
-}
-
-h2 {
-  color: #033048;
-  font-size: 32px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-}
-
-a {
-  color: #f9e42e;
-  background-color: #033048;
-  font-size: 18px; 
-  line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none;
-}
-
-ul {
+nav {
   float: right;
-  list-style-type: none;
 }
 
-li { 
+nav a{
   display: inline-block;
+  font-size: 14px;
+  color: white;
 }
-/******************************************
-/* LAYOUT
-/*******************************************/
-/* Center the container */
-p {
+
+main article {
   float: left;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  color: #606161;
+  width: 75%;
+  height: 300px;
+  background-color: gray;
 }
 
-main {
-
+main aside {
+  float: right;
+  width: 25%;
+  height: 300px;
+  background-color: orange;
+  clear: none;
 }
 
-aside{
-
+aside p{
+  text-align: center;
 }
 
-footer {
-  background-color: #f9e42e;
-  display: block;
-  line-height: 1.4;
-  height: 5;
-  overflow: hidden;
+main article {
+  float: left;
+  width: 75%;
+  height: 300px;
+  background-color: gray;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+
+
 
 
 
