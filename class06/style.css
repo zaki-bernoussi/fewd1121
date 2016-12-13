@@ -1,0 +1,22 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;s	
+}
+
+header, main, aside, footer{
+	height: 100px;
+	border: solid 1px black;
+	background-color: gray;
+}
+
+main, aside{
+	width: 48%;
+	float: left;
+	background-color: gray;
+}
+
+footer{
+	clear: both;
+	background-color: gray;
+}
