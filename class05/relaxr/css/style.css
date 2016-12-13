@@ -39,6 +39,10 @@ footer {
   clear: both;
 }
 
+.clear {
+  clear: both;
+}
+
 header h1{
   float: left;
   color: white;
