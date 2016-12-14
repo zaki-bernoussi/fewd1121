@@ -1,23 +1,26 @@
+body {
+  background-color: #f0efef;
+}
 
 header {
-  background-color: blue;
-  height: 100px;
+  background-color: #033048;
+  height: 50px;
 }
 
 main {
-  background-color: white;
-  height: 100px;
+  background-color: #f0efef;
+  height: 500px;
 }
 
 aside {
-  background-color: yellow;
-  height: 100px;
+  background-color: #f9e42e;
+  height: 50px;
   clear: both;
 }
 
 footer {
-  background-color: black;
-  height: 100px;
+  background-color: #121212;
+  height: 50px;
 }
 
 .container {
@@ -38,7 +41,7 @@ footer {
 header h1{
   float: left;
   color: white;
-}
+  }
 
 nav {
   float: right;
@@ -47,21 +50,24 @@ nav {
 nav a{
   display: inline-block;
   font-size: 14px;
-  color: white;
+  color: #f9e42e;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 main article {
   float: left;
   width: 75%;
-  height: 300px;
-  background-color: gray;
+  height: 950px;
+  background-color: #f0efef;
 }
 
 main aside {
   float: right;
   width: 25%;
-  height: 300px;
-  background-color: orange;
+  height: 950px;
+  background-color: #f0efef;
   clear: none;
 }
 
@@ -69,13 +75,14 @@ aside p{
   text-align: center;
 }
 
-main article {
-  float: left;
-  width: 75%;
-  height: 300px;
-  background-color: gray;
+b {
+  color: blue;
+  padding: auto;
+  margin-top: 15px
+  margin-bottom: 15px;
+  margin-left: 50%;
+  margin-right: 50%;
 }
-
 
 
 
