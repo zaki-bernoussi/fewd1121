@@ -1,0 +1,148 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+.container {
+	width: margin 0 auto;
+	overflow: hidden;
+}
+
+
+.tagline {
+	text-align: center;
+	font-family: "Merriweather";
+	font-size: 30px;
+	height: 65px;
+	background-color: lightgrey;
+	padding-top: 20px;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	height: 60px;
+	color: white;
+}
+
+header {
+	background-color: black;
+	height: 80px;
+	width: 100%;
+	border-bottom: 3px solid yellow;
+}
+
+h1 {
+	float: left;
+	font-size: 30px;
+	margin-top: 25px;
+	margin-left: 30px;
+	font-family: "Merriweather";
+	color: yellow;
+}
+
+nav {
+	margin-top: 25px;
+	margin-right: 40px;
+	float: right;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-family: "Oswald";
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+main {
+	height: 600px;
+	background-image: url('../img/coworking.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+button {
+	background-color: yellow;
+	align-items: center;
+	box-shadow: 8px 8px 8px black;
+	font-family: 'Oswald';
+	font-weight: 600;
+	width: 75%;
+	margin: 0 auto;
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: none;
+	border-radius: 2px;
+}
+
+aside {
+	width: 300px;
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.8);
+	float: right;
+	margin-top: 75px;
+	margin-right: 75px; 
+	padding: 2%;
+}
+
+.boxes {
+	font-family: "Merriweather";
+	color: black;
+	background-color: lightgrey;
+	font-weight: 600;
+	width: 27%;
+	padding: 2%;
+	/*padding-top: 18px;
+	padding-bottom: 18px;*/
+	display: inline-block;
+	/*border: 2px solid grey;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.boxes:nth-of-type(2n){
+	border-left: 2px solid grey;
+	border-right: 2px solid grey;
+}
+
+article {
+	background-color: lightgrey;
+}
+div h2 {
+	font-family: 'Oswald';
+	font-size: 30px;
+}
+
+h2 {
+	font-family: 'Oswald';
+	font-size: 30px;
+	padding-left: 45px;
+}
+
+h3 {
+	font-size: 18px;
+	padding-top: 25px;
+	margin-left: 25px;
+	color: white;
+}
+
+p {
+	padding-left: 45px;
+}
+
+footer p {
+	font-family: "Source Sans Pro";
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: black;
+}
+
+div button {
+	background-color: grey;
+	box-shadow: 2px 2px 2px grey;
+	font-size: 12px;
+	font-weight: 600px;
+}
