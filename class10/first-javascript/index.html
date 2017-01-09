@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Our First JavaScript</title>
+
+</head>
+<body>
+
+	<h1 id="myId">Hello, World!</h1>
+	
+	<script type="text/javascript">
+		var fname = "Zaki";
+		var lname = "Bernoussi";
+		var num1 = 10 * 10;
+		var num2 = 100 / 10;
+		document.getElementById("myId").onclick = function(){
+			document.getElementById("myId").innerHTML = "new text";
+			document.getElementById("myId").style.color = "red";
+		}
+		
+		function doSomething(){
+			document.write("<h2>This is some new code</h2>" + "<br>");
+			document.write((num1) + "<br>" + (num2));
+		}
+
+		doSomething()
+
+	</script>
+</body>
+</html>
