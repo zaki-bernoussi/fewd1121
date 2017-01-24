@@ -1,0 +1,14 @@
+.row div {
+	outline: 1px solid black;
+	background: rgb(222, 222, 222);
+	height: 250px;
+}
+
+article {
+	background-color: red;
+	height: 100%;
+}
+
+div.left{
+	background-color: red;
+}

@@ -4,7 +4,3 @@ $('.box').click(function (){
 
 	$(this).hide();
 });
-
-$('button').on('click', function);
-	$('.sectionB').show('slow');
-});
