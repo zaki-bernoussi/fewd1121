@@ -2,6 +2,14 @@ body {
   padding-top: 20px;
 }
 
+.logo{
+  display: inline-block;
+  margin-bottom: 3px;
+  height: 18%;
+  width: 18%;
+  float: left;
+}
+
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -13,15 +21,24 @@ body {
 .jumbotron {
   text-align: center;
   background-color: transparent;
+  font-weight: lighter;
+  text-align: right;
+  font-family: Baskerville;
 }
+
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  color: #010a81;
+  background-color: #eee;
+  font-family: Baskerville;
+  font-weight: bold;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
 
 .nav-justified {
+  overflow: hidden;
   background-color: #eee;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -31,7 +48,7 @@ body {
   padding-bottom: 15px;
   margin-bottom: 0;
   font-weight: bold;
-  color: #777;
+  color: #010a81;
   text-align: center;
   background-color: #e5e5e5; /* Old browsers */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
@@ -74,6 +91,12 @@ body {
     border-right: 0;
     border-radius: 0 5px 5px 0;
   }
+  .social{
+  display: inline-block;
+  height: 8%;
+  width: 8%;
+  float: right;  
+  }
 }
 
 /* Responsive: Portrait tablets and up */
@@ -81,8 +104,9 @@ body {
   /* Remove the padding we set earlier */
   .masthead,
   .marketing,
-  .footer {
+  .footer{
     padding-right: 0;
     padding-left: 0;
+    margin: auto 0;  
   }
 }
